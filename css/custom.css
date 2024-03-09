@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+:root {
+    --body-background: #020e0f;
+    --pure-black: #000000;
+    --color-text: #e22c05;
+    --offwhite-text: #cccccc;
+    --white-text: #ffffff;
+    --light-blue: #001a1d;
+    --dark-blue: #001315;
+    --footer-background: #001314;
+  }
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-background);
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+p
+{
+    margin: 0;
+}
+/* Navigation Section */
+.navbar
+{
+    background-color: var(--pure-black);
+    padding: 20px 0;
+}
+.navbar-nav .nav-item
+{
+    margin: 0 20px;
+}
+.navbar-nav .nav-item a
+{
+    color: #ffffff;
+}
+/* Hero Section */
+.hero-main
+{
+    background-image: url('../images/header.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 1799px;
+    height: 100%;
+}
+.music-player img
+{
+    max-width: 937px;
+    width: 100%;
+    height: auto;
+}
+/* who we are */
+.whower
+{
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 20px;
+    margin-top: 950px;
+    padding: 5px 60px;
+    box-shadow: 0 14px 28px rgba(72, 72, 72, 0.25), 0 10px 20px rgba(78, 78, 78, 0.22);
+}
+.whower img
+{
+    max-width: 550px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+}
+.whower h1
+{
+    color: var(--white-text);
+    font-size: 30px;
+    font-weight: 600;
+}
+.whower-content
+{
+    color: var(--offwhite-text);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.whower-logo
+{
+    background-image: url('../images/header people 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+}
+.whower-logo img
+{
+    max-width: 822px;
+    width: 100%;
+}
+/* News Section */
+.news-heading h1
+{
+    color: var(--white-text);
+    margin-top: 30px;
+}
+.news-content
+{
+    border-radius: 20px;
+    background-color: var(--dark-blue);
+    overflow: hidden;
+}
+.dates
+{
+    background-color: var(--light-blue);
+    padding: 40px;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+.dates h1 span 
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 8px;
+} 
+.news
+{
+    margin-left: 20px;
+}
+.news h5
+{
+    color: var(--white-text);
+    font-weight: 600;
+}
+.news p
+{
+    color: var(--white-text);
+    font-weight: 400;
+}
+.down-icon img
+{
+    background-color: var(--light-blue);
+    padding: 5px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Reflect */
+.reflect
+{
+    background-image: url('../images/header people 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    object-fit: cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+.reflect-content h5
+{
+    color: var(--color-text);
+    font-size: 24px;
+}
+.reflect-content p
+{
+    color: var(--offwhite-text);
+    font-size: 24px;
+}
+/* Release Section */
+.realese-logo img
+{
+    margin-top: 20px;
+    width: 100px;
+    cursor: pointer;
+    padding: 5px;
+}
+.release-content
+{
+    height: 642px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.left-content
+{
+    background-color: var(--light-blue);
+    height: 642px;
+    padding: 20px;
+}
+.left-content h5
+{
+    color: var(--white-text);
+    font-size: 20px;
+    font-weight: 600;
+}
+.left-content p
+{
+    color: var(--white-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.right-content
+{
+    background-color: var(--dark-blue);
+    height: 642px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.right-content p
+{
+    font-size: 20px;
+    line-height: 80px;
+    color: var(--offwhite-text);
+    font-weight: 300;
+}
+.right-content::-webkit-scrollbar {
+    width: 20px;  
+}
+.right-content::-webkit-scrollbar-thumb {
+    background: #e22c05; 
+    border-radius: 10px;
+}
+.right-content::-webkit-scrollbar-track {
+    margin: 20px 0;
+}
+/* Some-Content Section */
+.some-content
+{
+    background-image: url('../images/header people 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    object-fit: cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.some-contenttext h5
+{
+    color: var(--color-text);
+    font-size: 24px;
+    line-height: 40px;
+}
+.some-contenttext p
+{
+    color: var(--offwhite-text);
+    font-size: 24px;
+    margin-left: 400px;
+}
+@media (max-width: 768px) 
+{
+    .some-contenttext p
+    {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .some-contenttext h5
+    {
+        font-size: 14px;
+    }
+}
+/* The Brand Section */
+.brand-icon img
+{
+    width: 100%;
+}
+.brand-icon .ias
+{
+    margin-top: 56px;
+}
+.brand-icon .active
+{
+    border: 2px solid red;
+    padding: 2px;
+}
+@media (max-width: 992px) 
+{
+    .brand-icon .ias
+    {
+        margin-top: 0px;
+    }
+    .brand-author img
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+    }
+}
+.brand-author img
+{
+    width: 100%;
+}
+.brand-content p
+{
+    padding: 0 34px;
+    color: var(--offwhite-text);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 37px;
+}
+@media (max-width: 1399px) 
+{
+    .brand-content p
+    {
+        line-height: 30px;
+    }
+}
+@media (max-width: 1199px) 
+{
+    .brand-content p
+    {
+        line-height: 24px;
+    }
+}
+/* some-contenttext2 */
+.some-contenttext2 h5
+{
+    color: var(--color-text);
+    font-size: 24px;
+    line-height: 40px;
+}
+.some-contenttext2 p
+{
+    color: var(--offwhite-text);
+    font-size: 24px;
+    margin-left: 750px;
+}
+@media (max-width: 1199px) 
+{
+    .some-contenttext2 h5
+    {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .some-contenttext2 p
+    {
+        font-size: 20px;
+        margin-left: 630px;
+    }
+}
+@media (max-width: 991px) 
+{
+    .some-contenttext2 h5
+    {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .some-contenttext2 p
+    {
+        font-size: 16px;
+        margin-left: 500px;
+    }
+}
+@media (max-width: 768px) 
+{
+    .some-contenttext2 h5
+    {
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .some-contenttext2 p
+    {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+}
+/* Carousel Section */
+.video-box
+{
+    position: relative;
+}
+.video-box .logoimg
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cft h5
+{
+    font-size: 20px;
+    color: var(--offwhite-text);
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    padding-bottom: 60px;
+}
+.owl-carousel .owl-nav button.owl-next 
+{
+    position: absolute;
+    top: 50%;
+    right: -110px;
+    transform: translate(-50%, -50%);
+    font-size: 30px !important;
+    background-color: #fff !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.owl-carousel .owl-nav button.owl-prev
+{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translate(-50%, -50%);
+    font-size: 30px !important;
+    background-color: #fff !important;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+@media (max-width: 768px) 
+{
+    .owl-carousel .owl-nav button.owl-next 
+    {
+        display: none !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        display: none !important;
+    }
+}
+/* Footer Section */
+.footer
+{
+    background-color: #001314;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+.icon-box i
+{
+    color: var(--white-text);
+    font-size: 24px;
+    padding: 0 13px;
+}
+.copyright p
+{
+    color: var(--white-text);
+}
